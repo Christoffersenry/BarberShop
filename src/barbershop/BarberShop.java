@@ -5,6 +5,16 @@
  */
 package barbershop;
 
+import barbershop.customerControllers.CLogCon;
+import barbershop.index.IndexCon;
+import barbershop.customerViews.CBarbAvailV;
+import barbershop.customerViews.CBarbSearchV;
+import barbershop.customerViews.CBookingsV;
+import barbershop.customerViews.CLeaveRevV;
+import barbershop.customerViews.CHomeV;
+import barbershop.customerViews.CLogV;
+import barbershop.customerViews.CRegV;
+
 /**
  *
  * @author rcvb8
@@ -15,7 +25,17 @@ public class BarberShop {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("This is a test.");
+        
+                BarberShop.run();
+        
     }
     
-}
+    public static void run() {
+        
+                new IndexCon();
+                
+    }
+    
+    }
+    
+
